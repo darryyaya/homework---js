@@ -1,1 +1,2 @@
-# homework-js
+## [Текстовый файл с теорией] (./textlma.txt)
+Теория по скриптам JavaScript
