@@ -1,15 +1,16 @@
-let n = +prompt("Vvedite vashe chislo: ")
-if (n % 2 === 0){
-    let sum = 1;
-    for(let i = 0; i < n; i++){
-        sum = sum + i;
-        console.log(sum);
+  
+    let a = +prompt();
+    switch(a){
+        case 3:
+        alert("мало");
+        break;
+        case 4:
+        alert("в точку!");
+        break;
+        case 5:
+        alert("много!");
+        break;
+    default:
+        alert("Мимо!!!");
+        break;
     }
-}
-else{
-    let mult = 1;
-    for(let i = 1; i < n; i++){
-        mult = mult * i;
-        console.log(mult);
-    }
-}
