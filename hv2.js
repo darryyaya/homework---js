@@ -1,8 +1,6 @@
-let number = + prompt("Введите число");
-let answer = number % 2;
-if (answer>0){
-    console.log("Вы ввели нечетное число")
-}
-else{
-    console.log("Вы ввели четное число")
-}
+let num = +prompt("Введите число: ");
+let otvet = 0;
+for(let i = 1; i <= num; i++){
+    otvet = otvet + i
+}   
+ console.log(otvet);
