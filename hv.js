@@ -1,16 +1,13 @@
-let num = +prompt("Vvedite chislo ot 0 do 3: ");
-switch ( num ) {
-    case 0:
-        alert ('Вы ввели 0!')
-        break;
-    case 1:
-        alert ('Вы ввели 1!')
-        break;
-    case 2:
-    case 3:
-        alert ('Вы ввели 2 или 3!')
-        break;
-    default:
-        alert ('Число вне диапазона(')
-        break;
+let a = +prompt("Введите сумму покупок:");
+if( a > 2000 && a < 5000){
+    console.log("ваша скидка 15%")
+}
+else if( a > 5000){
+    console.log("ваша скидка 30%")
+}
+else if(a > 1000 && a < 2000){
+    console.log("ваша скидка 10%")
+}
+else {
+    console.log("у вас нету скидки")
 }
